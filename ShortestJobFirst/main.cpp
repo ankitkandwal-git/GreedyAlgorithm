@@ -12,7 +12,7 @@ class ShortJobFirst{
             totalWaitingTime += currentTime;
             currentTime += waitingTime[i];
         }
-        return totalWaitingTime;
+        return totalWaitingTime/n;
     }
 };
 
